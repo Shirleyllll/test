@@ -1,0 +1,289 @@
+.hello{
+    background: red;
+    height: 200px;
+    .aa{
+        height: 100px;
+        background: green;
+        &.bb {
+            color: #000;   
+        }
+    }
+}
+
+body{
+    background-size:cover;    
+}
+
+.header{
+    background: white;
+    margin:0;
+    border: 0;
+    padding-top:15px;
+    text-align:center;
+    height: 45px;
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+li
+{
+display:inline;
+}
+}
+
+.title{
+    background: rgba(0,0,0,.6);
+    height:50px;
+    padding-top:50px;
+    padding-left:160px;
+    font-size:35px;
+    color: white;
+    margin:0;
+    filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6; 
+    .msg{
+        position:relative;
+
+    }
+}
+
+
+@conPadding:130px;
+@conHeight:600px;
+.container{
+    padding:@conPadding;
+    height:500px;
+    background:transparent;
+    text-align:center;
+    .guide{
+        background: transparent;
+        margin:0 auto;
+        color:white;
+        font-size: 25px;
+        padding-left: 0px;
+        .guidetext{
+            color:white;
+            font-size: 15px;
+            padding-left:330px;
+            padding-right:330px;
+            padding-top:35px;
+            text-align:left;
+            line-height:25px;
+        }
+
+    }
+//小块样式
+.bordered(){
+    margin-top: 75px;
+    padding-top:50px;
+
+    border:0 solid transparent;
+    height:280px;
+    width:290px;
+    float:left;
+    text-align:center;
+    background-color: white;
+}
+.font(){
+    color:black;
+    font-size: 15px;
+    text-align:left;
+    line-height:25px;
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+
+.titlefont(@color){
+    color:@color;
+    font-size:20px;
+    text-align:left;
+    margin-left:20px;
+
+    margin-bottom: 40px;
+}
+
+
+    .text1{
+        margin-left:30px;
+        .topic{
+            .titlefont(green);
+
+        }
+        .context{
+            .font();
+
+        }
+
+        .bordered;   
+       }
+       .text2{
+        margin-left:15px;
+        .topic{
+            .titlefont(red);
+
+        }
+        .context{
+            .font();
+
+        }
+           .bordered;
+       }
+       .text3{
+        .topic{
+            .titlefont(blue);
+
+        }
+        .context{
+            .font();
+
+        }
+           .bordered;
+           margin-left:15px;
+       }
+       .text4{
+        .topic{
+            .titlefont(purple);
+
+        }
+        .context{
+            .font();
+
+        }
+           .bordered;
+           margin-left:15px;
+       }
+}
+
+
+
+
+
+
+
+
+.container2{
+    height:1200px;
+    background:transparent;
+    text-align:center;
+
+//小块样式
+.bordered(){
+    margin-top: 380px;
+
+    padding-top:50px;
+    border:0 solid transparent;
+    height:280px;
+    width:290px;
+    float:left;
+    text-align:center;
+    background-color: white;
+}
+.font(){
+    color:black;
+    font-size: 15px;
+    text-align:left;
+    line-height:25px;
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+
+.titlefont(@color){
+    color:@color;
+    font-size:20px;
+    text-align:left;
+    margin-left:20px;
+
+    margin-bottom: 40px;
+}
+    .text5{
+        margin-left:30px;
+        .topic{
+            .titlefont(blue);
+
+        }
+        .context{
+            .font();
+
+        }
+        .bordered;   
+       }
+       .text6{
+        .topic{
+            .titlefont(blue);
+
+        }
+        .context{
+            .font();
+
+        }
+        margin-left:15px;
+           .bordered;
+       }
+       .text7{
+        .topic{
+            .titlefont(blue);
+
+        }
+        .context{
+            .font();
+
+        }
+           .bordered;
+           margin-left:15px;
+       }
+       .text8{
+        .topic{
+            .titlefont(blue);
+
+        }
+        .context{
+            .font();
+
+        }
+           .bordered;
+           margin-left:15px;
+       }
+}
+
+
+.container3{
+
+    height: @conHeight;
+    background:transparent;
+    text-align:center;
+//小块样式
+.bordered(){
+    margin-top: 300px;
+
+    margin-left:4%;
+    border:0 solid transparent;
+    height:330px;
+    width:21%;
+    float:left;
+    text-align:center;
+    background-color: white;
+}
+.text1{
+    margin-left:30px;
+
+    .bordered;   
+   }
+   .text2{
+    margin-left:15px;
+       .bordered;
+   }
+   .text3{
+       .bordered;
+       margin-left:15px;
+   }
+   .text4{
+       .bordered;
+       margin-left:15px;
+   }
+}
+
+a:link{color:black;}
+
